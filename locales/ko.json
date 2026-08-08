@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "KKCode",
+    "NSLocalNetworkUsageDescription": "KKCode는 동일한 Wi-Fi의 OpenCode 서비스에 연결하기 위해 로컬 네트워크 접근 권한이 필요합니다.",
+    "NSCameraUsageDescription": "KKCode는 OpenCode 터널 QR 코드를 스캔하기 위해 카메라 접근 권한이 필요합니다.",
+    "NSPhotoLibraryUsageDescription": "KKCode는 AI에 전송할 이미지를 선택하기 위해 사진 보관함 접근 권한이 필요합니다.",
+    "Localizable.strings": {
+      "KKCODE_LOCALIZATION_MARKER": "KKCode"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "KKCode",
+    "NSLocalNetworkUsageDescription": "KKCode को उसी Wi-Fi नेटवर्क पर OpenCode सेवा से कनेक्ट करने के लिए स्थानीय नेटवर्क एक्सेस चाहिए।",
+    "NSCameraUsageDescription": "KKCode को OpenCode टनल QR कोड स्कैन करने के लिए कैमरा एक्सेस चाहिए।",
+    "NSPhotoLibraryUsageDescription": "KKCode को AI को भेजने के लिए चित्र चुनने हेतु फ़ोटो लाइब्रेरी एक्सेस चाहिए।",
+    "Localizable.strings": {
+      "KKCODE_LOCALIZATION_MARKER": "KKCode"
+    }
+  }
+}

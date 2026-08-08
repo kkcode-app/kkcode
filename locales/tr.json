@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "KKCode",
+    "NSLocalNetworkUsageDescription": "KKCode'un aynı Wi-Fi ağındaki OpenCode hizmetine bağlanmak için yerel ağa erişmesi gerekir.",
+    "NSCameraUsageDescription": "KKCode'un OpenCode tünel QR kodunu taramak için kameraya erişmesi gerekir.",
+    "NSPhotoLibraryUsageDescription": "KKCode'un AI'ya gönderilecek görselleri seçmek için fotoğraf arşivine erişmesi gerekir.",
+    "Localizable.strings": {
+      "KKCODE_LOCALIZATION_MARKER": "KKCode"
+    }
+  }
+}

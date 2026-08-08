@@ -1,0 +1,152 @@
+{
+  "expo": {
+    "name": "KKCode Community",
+    "slug": "kkcode-community",
+    "version": "1.0.3",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "kkcode-community",
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "2",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "io.github.junbaor.kkcode.community",
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true,
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        },
+        "NSLocalNetworkUsageDescription": "KKCode Community needs access to the local network to connect to the OpenCode service on the same Wi-Fi network."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "versionCode": 2,
+      "package": "io.github.junbaor.kkcode.community",
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "locales": {
+      "en": "./locales/en.json",
+      "zh-Hans": "./locales/zh-Hans.json",
+      "zh-Hant": "./locales/zh-Hant.json",
+      "ja": "./locales/ja.json",
+      "ko": "./locales/ko.json",
+      "de": "./locales/de.json",
+      "fr": "./locales/fr.json",
+      "es": "./locales/es.json",
+      "it": "./locales/it.json",
+      "pt": "./locales/pt.json",
+      "pt-BR": "./locales/pt-BR.json",
+      "ru": "./locales/ru.json",
+      "uk": "./locales/uk.json",
+      "bg": "./locales/bg.json",
+      "pl": "./locales/pl.json",
+      "tr": "./locales/tr.json",
+      "ar": "./locales/ar.json",
+      "hi": "./locales/hi.json",
+      "th": "./locales/th.json",
+      "vi": "./locales/vi.json",
+      "id": "./locales/id.json"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-localization",
+        {
+          "supportedLocales": {
+            "ios": [
+              "en",
+              "zh-Hans",
+              "zh-Hant",
+              "ja",
+              "ko",
+              "de",
+              "fr",
+              "es",
+              "it",
+              "pt",
+              "pt-BR",
+              "ru",
+              "uk",
+              "bg",
+              "pl",
+              "tr",
+              "ar",
+              "hi",
+              "th",
+              "vi",
+              "id"
+            ],
+            "android": [
+              "en",
+              "zh-Hans",
+              "zh-Hant",
+              "ja",
+              "ko",
+              "de",
+              "fr",
+              "es",
+              "it",
+              "pt",
+              "pt-BR",
+              "ru",
+              "uk",
+              "bg",
+              "pl",
+              "tr",
+              "ar",
+              "hi",
+              "th",
+              "vi",
+              "id"
+            ]
+          }
+        }
+      ],
+      "expo-secure-store",
+      "expo-status-bar",
+      "expo-local-authentication",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "KKCode needs photo library access to select images to send to AI."
+        }
+      ],
+      "./plugins/withAboutLibrariesBuildMode",
+      "react-native-legal",
+      "./plugins/withIosPodDeploymentTarget",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true,
+            "gradleProperties": {
+              "org.gradle.jvmargs": "-Xmx4096m -XX:MaxMetaspaceSize=512m -XX:+HeapDumpOnOutOfMemoryError",
+              "org.gradle.parallel": "true",
+              "org.gradle.caching": "true",
+              "org.gradle.configureondemand": "true"
+            }
+          },
+          "ios": {
+            "useFrameworks": "static",
+            "usePrecompiledModules": false
+          }
+        }
+      ],
+      "expo-image",
+      "react-native-haptic-feedback"
+    ]
+  }
+}

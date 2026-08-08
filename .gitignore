@@ -1,0 +1,56 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+.expo-prebuild-*.hash
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# Firebase / Google Services 配置（含密钥，不入版本库）
+google-services.json
+GoogleService-Info.plist
+
+# generated native folders
+/ios
+/android
+modules/*/android/build
+modules/*/ios/build
+modules/*/android/.cxx
+.env
+ios.worktree-backup/
+node_modules

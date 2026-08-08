@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "KKCode",
+    "NSLocalNetworkUsageDescription": "KKCode 需要存取本地網路，以連線到同一 Wi-Fi 下的 OpenCode 服務。",
+    "NSCameraUsageDescription": "KKCode 需要使用相機掃描 OpenCode 隧道 QR Code。",
+    "NSPhotoLibraryUsageDescription": "KKCode 需要存取相簿，以選擇圖片傳送給 AI。",
+    "Localizable.strings": {
+      "KKCODE_LOCALIZATION_MARKER": "KKCode"
+    }
+  }
+}

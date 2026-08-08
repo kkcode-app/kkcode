@@ -1,0 +1,15 @@
+node_modules/
+.expo/
+dist/
+ios/
+android/
+web-build/
+cli/node_modules/
+relay/node_modules/
+package-lock.json
+*.tsbuildinfo
+*.min.js
+*.min.css
+fastlane/report.xml
+fastlane/README.md
+assets/

@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "KKCode",
+    "NSLocalNetworkUsageDescription": "O KKCode precisa acessar a rede local para se conectar ao serviço OpenCode na mesma rede Wi-Fi.",
+    "NSCameraUsageDescription": "O KKCode precisa acessar a câmera para escanear o QR code de um túnel OpenCode.",
+    "NSPhotoLibraryUsageDescription": "O KKCode precisa acessar a biblioteca de fotos para selecionar imagens e enviá-las à IA.",
+    "Localizable.strings": {
+      "KKCODE_LOCALIZATION_MARKER": "KKCode"
+    }
+  }
+}

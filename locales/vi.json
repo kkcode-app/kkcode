@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "KKCode",
+    "NSLocalNetworkUsageDescription": "KKCode cần quyền truy cập mạng nội bộ để kết nối với dịch vụ OpenCode trong cùng mạng Wi-Fi.",
+    "NSCameraUsageDescription": "KKCode cần sử dụng camera để quét mã QR đường hầm OpenCode.",
+    "NSPhotoLibraryUsageDescription": "KKCode cần truy cập thư viện ảnh để chọn ảnh gửi cho AI.",
+    "Localizable.strings": {
+      "KKCODE_LOCALIZATION_MARKER": "KKCode"
+    }
+  }
+}
