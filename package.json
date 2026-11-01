@@ -33,7 +33,7 @@
     "@react-native-async-storage/async-storage": "2.2.0",
     "@react-native-community/slider": "5.2.0",
     "@shopify/react-native-skia": "2.6.2",
-    "expo": "~56.0.11",
+    "expo": "~58.0.22",
     "expo-asset": "~56.0.21",
     "expo-build-properties": "^56.0.18",
     "expo-clipboard": "~56.0.4",
